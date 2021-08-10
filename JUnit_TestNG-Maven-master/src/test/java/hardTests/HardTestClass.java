@@ -10,7 +10,7 @@ public class HardTestClass {
   Calculator calc = new Calculator();
 
   //TODO (**)
-  @Test(expectedExceptions = ArithmeticException.class)
+  @Test
   public  void testCheckDivisionByZero(){
     int actualResult = calc.checkDivisionByZero(5, 0);
     assertEquals("5/0 must return -100", -100, actualResult);

@@ -13,7 +13,7 @@ public class MediumTestClass {
   @Test(groups = "Smoke")
   public void testAverageValueOfThreeNumbers(){
     double actualResult = calc.averageValueOfThreeNumbers(10,2,3);
-    assertEquals("(10 + 2 + 3)/3 must be 5", 5,actualResult);
+    assertEquals("(10 + 2 + 3)/3 must be 5", 5.0,actualResult);
   }
 
   //TODO (**)

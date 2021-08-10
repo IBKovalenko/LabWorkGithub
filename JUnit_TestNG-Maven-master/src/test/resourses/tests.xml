@@ -9,7 +9,6 @@
             </run>
         </groups>
         <classes>
-            <class name="hardTests.HardTestClass"/>
             <class name="mediumTests.MediumTestClass"/>
             <class name="simpleTests.SimpleTestClass"/>
         </classes>
