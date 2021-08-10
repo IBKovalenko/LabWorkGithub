@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Hard" >
+    <test name="HardTest" >
+        <classes>
+            <class name="hardTests.HardTestClass"></class>
+        </classes>
+    </test>
+</suite>
